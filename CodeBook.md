@@ -19,31 +19,29 @@ The principal variables i have used are:
 * i:total_acc_z_test
 * dataTest:Name of the type of data (Test or train)
 
-Subject1:Subject for the data test
-Activity1:Activity for the data test, ("WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING")
+* Subject1:Subject for the data test
+* Activity1:Activity for the data test, ("WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING")
 
-InerSigTest: data frame for data Test
+* InerSigTest: data frame for data Test
 
 # Read file for train file
 # Inertial Signals
 
-j:body_acc_x_train
-k:body_acc_y_train
-l:body_acc_z_train
-m:body_gyro_x_train
-n:body_gyro_y_train
-o:body_gyro_z_train
-p:total_acc_x_train
-q:total_acc_y_train
-r:total_acc_z_train
-dataTrain:Name of the type of data (Test or train)
-Subject2:Subject for the data test
-Activity2:Activity for the data train, ("WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING")
+* j:body_acc_x_train
+* k:body_acc_y_train
+* l:body_acc_z_train
+* m:body_gyro_x_train
+* n:body_gyro_y_train
+* o:body_gyro_z_train
+* p:total_acc_x_train
+* q:total_acc_y_train
+* r:total_acc_z_train
+* dataTrain:Name of the type of data (Test or train)
+* Subject2:Subject for the data test
+* Activity2:Activity for the data train, ("WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING")
 
-InerSigTrain: data frame for the trains set
+* InerSigTrain: data frame for the trains set
 
-merge: Merge the train and test set
+*merge: Merge the train and test set
 
-tidymeans:
-
-write.table(tidy, file="./tidydata.txt", sep="\t", row.names=FALSE)
+*tidy: tidy data
