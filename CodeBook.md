@@ -42,6 +42,6 @@ The principal variables i have used are:
 
 * InerSigTrain: data frame for the trains set
 
-*merge: Merge the train and test set
+* merge: Merge the train and test set
 
-*tidy: tidy data
+* tidy: tidy data
